@@ -1,0 +1,191 @@
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.container {
+    background-color: rgb(255, 252, 230);
+    .appTitle {
+        text-align: center;
+    }
+    .wrap {
+        width: 80%;
+        padding: 10px;
+        margin: 0 auto;
+
+        .BookAdd {
+            width: 100%;
+            padding:30px 0px;
+            background-color: rgb(255, 240, 211);
+            border-radius: 30px;
+            text-align: center;
+
+            input, textarea{
+                width: 40%;
+                padding: 15px;
+                border: 0;
+                font-size: 16px;
+                border-radius: 10px;
+                outline: none;
+                border-bottom: 4px solid rgb(147, 62, 5);
+                margin-bottom: 10px;
+
+                &:hover {
+                    border-bottom: 4px solid rgb(213, 91, 9);
+                }
+
+                @media screen and (max-width:768px) {
+                    width: 70%;
+                }
+            }
+
+            .newItemButton {
+                appearance: none;
+                border: 0;
+                border-radius: 5px;
+                background: rgb(255, 114, 63);
+                color: rgb(255, 255, 255);
+                padding: 8px 16px;
+                font-size: 16px;
+
+                &:hover {
+                    background-color: orangered;
+                }
+            }
+
+        }
+
+        .booksinfo {
+            margin-top: 10%;
+
+            .booksinfo_button {
+                text-align: center;
+                margin-top: 3%;
+            }
+
+            .returnbooksButton {
+                appearance: none;
+                border: 0;
+                border-radius: 5px;
+                background: rgb(255, 114, 63);
+                color: rgb(255, 255, 255);
+                border: 2px solid rgb(254, 254, 254);
+                padding: 8px 25px;
+                font-size: 14px;
+
+                &:hover {
+                    background-color: orangered;
+                }
+            }
+
+            .lendButton {
+                appearance: none;
+                border: 0;
+                border-radius: 5px;
+                background: rgb(255, 114, 63);
+                color: rgb(255, 255, 255);
+                border: 2px solid rgb(254, 254, 254);
+                padding: 8px 25px;
+                font-size: 14px;
+
+                &:hover {
+                    background-color: orangered;
+                }
+            }
+
+            .deleteButton {
+                appearance: none;
+                border: 0;
+                border-radius: 5px;
+                background: rgb(255, 255, 255);
+                color: rgb(255, 114, 63);
+                padding: 8px 25px;
+                border: 2px solid rgb(255, 114, 63);
+                font-size: 14px;
+
+                &:hover {
+                    background-color: rgb(255, 245, 225);
+                }
+            }
+
+            .Itemhead {
+                padding:5px 7px;
+                margin-bottom: -12px;
+                background-color: rgb(255, 240, 211);
+                color: darkred;
+                font-weight: bold;
+            }
+        }
+
+        .BookListMain {
+            margin-top: 3%;
+            display: flex;
+            padding-top: 3%;
+            border-radius: 20px;
+            background-color: rgb(255, 253, 244);
+            justify-content: space-around;
+
+            @media screen and (max-width:768px) {
+                display: block;
+                padding-top: 5%;
+                margin-top: 7%;
+            }
+        }
+
+        .BooksList {
+            width: 45%;
+
+            @media screen and (max-width:768px) {
+                width: 90%;
+                margin: 0 auto;
+            }
+        }
+
+        .BooksLending {
+            width: 45%;
+
+            @media screen and (max-width:768px) {
+                width: 90%;
+                margin: 0 auto;
+                padding-top: 20%;
+            }
+
+        }
+
+        ul {
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+
+
+        .listName {
+            text-align: center;
+            color: #fff;
+            padding: 1px;
+            background-color: rgb(255, 119, 0);
+            border-radius: 20px;
+        }
+
+        .listNone {
+            text-align: center;
+            margin-top: 100px;
+
+            @media screen and (max-width:768px) {
+                margin-top: 50px;
+                padding-bottom: 50px;
+            }
+        }
+    }
+
+
+}
+

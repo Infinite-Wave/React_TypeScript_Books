@@ -1,0 +1,25 @@
+{
+  "books": [
+    {
+      "id": "01GMDXS6ACXF4QYQQ554VKC6F8",
+      "name": "あしたのショー",
+      "description": "明日、ショーがあるらしい??????????",
+      "done": false,
+      "edit": false
+    },
+    {
+      "id": "01GMDYY8EYG9PSK131SYGMGNEY",
+      "name": "ドラえまん",
+      "description": "あまり美味しそうじゃない饅頭...",
+      "done": false,
+      "edit": false
+    },
+    {
+      "id": "01GMHTV9ZW6ENQNBRR1TQTBDDF",
+      "name": "坊ちゃん",
+      "description": "夏目漱石だったような..",
+      "done": false,
+      "edit": false
+    }
+  ]
+}
